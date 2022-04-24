@@ -1,0 +1,464 @@
+body{
+    margin: 0;
+}
+
+#navbar{
+    background: #00000080;
+    font-family: "Open Sans";
+    color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    height: 60px;
+    padding: 0 10px;
+    
+}
+
+#navLogo{
+    font-size: 24px;
+    font-weight: bold;
+    flex: 1;
+    padding-left: 107px;
+    
+}
+
+#navbarNavigation{
+    font-size: 12px;
+    display: flex;
+    flex: 5;
+}
+
+.navItem{
+    margin-right: 30px;
+}
+
+#navbarUser{
+    font-size: 12px;
+    display: flex;
+    flex: 1;
+}
+
+#pageOne{
+    background-image: url("./assets/main-bg.jpg");
+    background-size: cover;
+    position: bottom;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px 100px;
+    font-family: 'Arial';
+    font-style: 'normal';
+    
+}
+
+.bannerArea{
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.bannerArea .headerUtama{
+    font-size: 72px;
+    letter-spacing: 3px;
+    line-height: 83px;
+}
+
+.bannerArea .headerSub{
+    font-size: 24px;
+    margin-bottom: 30px;
+
+}
+
+.bannerArea .btn{
+    background-color: #FCB443;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    display: inline-flex;
+    width: 170px;
+    justify-content: center;
+    font-family: 'Arial';
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#pageTwo{
+    background-image: url("./assets/the-games-bg.jpg");
+    background-size: cover;
+    position: bottom;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.containerPageTwo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.headerPageTwo{
+    font-family:'Arial';
+    margin-left: 82px;
+    margin-top: 20px;
+    margin-right: 50px;
+    color: #FFFFFF;
+    padding: 0px 0px;
+}
+
+.h3PageTwo h3{
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    letter-spacing: 2px;
+    font-style: normal;
+    
+}
+
+.h1PageTwo h1{
+    font-size: 50px;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 3px;
+    margin-bottom: 200px;
+}
+
+.containerImagePageTwo{
+    margin-left: 30px;
+    margin-top: 100px;
+    padding-left: 0px;
+    padding-top: 70px;
+   
+}
+
+.carousel-item{ 
+    width: 630px;
+    height: 370px;
+}
+
+.carousel-indicators li{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin: 35px 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    
+}
+.carousel-indicators li:hover{
+    background-color: white;
+}
+
+.carousel-control-prev{
+    margin-left: -10%;
+    
+    
+}
+
+.carousel-control-prev-icon{
+    background-image: url("./assets/switch_prev.svg");
+    
+}
+
+.carousel-control-next{
+    margin-right: -10%;
+}
+
+
+.carousel-control-next-icon{
+    background-image: url("./assets/switch_next.svg");
+    
+}
+
+#pageThree{
+    background-image: url("./assets/features.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   
+}
+
+
+.containerPageThree{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headerPageThree{
+    font-family: 'Arial';
+    color: #FFFFFF;
+    padding-left: 700px;
+    padding-top: 150px;
+    margin-left: 0px;
+}
+
+.headerPageThree h3{
+    font-size: 15px;
+}
+
+.headerPageThree h1{
+    font-size: 40px;
+}
+
+#contentPageThree{
+    display: flex;
+    /* flex: 5; */
+    flex-direction: column;
+    flex-wrap: wrap;
+        
+}
+
+.itemPageThree{
+    margin-left: 700px;
+    margin-bottom: 60px;
+    font-family:'Arial';
+    color: #FFB548;
+}
+
+.itemPageThree1{
+    margin-left: 700px;
+    margin-bottom: 5px;
+    font-family:'Arial';
+    color: #FFB548;
+    
+}
+
+.itemPageThree1 .subItem{
+    margin-left: 700px;
+    margin-bottom: 20px;
+    font-family: "Open Sans";
+    size: 5px;
+    color: #FFFFFF;
+    width: 300px;
+    margin: 20px 0px;
+    
+}
+
+#PageFour{
+    background-image: url("./assets/requirements.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+   
+}
+
+.containerH3PageFour{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.h3PageFour{
+    margin-top: 20px;
+    font-family: 'Arial';
+    color:#FFFFFF;
+    
+}
+
+.h3PageFour h3{
+    font-size: 14px;
+}
+
+.containerH1PageFour{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.h1PageFour{
+    font-family: 'Arial';
+    font-style: normal;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    margin-left: 120px;
+    margin-top: 40px;
+    
+}
+
+.h1PageFour h1{
+    font-size: 50px;
+    width: 600px;
+    line-height: 64px;
+    letter-spacing: 3px;
+}
+
+#PageFour .containerGridPageFour{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    /* border: 1px solid #979797; */
+    display: grid;
+    width: 50%;
+    margin-left: 120px;
+    padding-bottom: 150px;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 120px 120px 120px;
+    grid-template-areas:
+        
+        "os processor"
+        "memory storage"
+        "graphics graphics";
+    
+}
+
+#PageFour .containerGridPageFour .item{
+    border: 1px solid #979797;
+    padding: 12px;
+    
+    
+}
+
+#PageFour .containerGridPageFour .item-1{
+    grid-area: os;
+}
+
+#PageFour .containerGridPageFour .item-2{
+    grid-area: processor;
+}
+
+#PageFour .containerGridPageFour .item-3{
+    grid-area: memory;
+}
+
+#PageFour .containerGridPageFour .item-4{
+    grid-area: storage;
+}
+
+#PageFour .containerGridPageFour .item-5{
+    grid-area: graphics;
+}
+
+#PageFour .containerGridPageFour .title{
+    font-size: 18px;
+    color: #FFB548;
+}
+
+#PageFour .containerGridPageFour .content{
+    font-size: 14px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+#PageFive{
+    background-image: url("./assets/topscore.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    
+}
+
+
+#PageFive .containerPageFive{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 200px;
+    margin-right: 700px;
+    font-family: 'Open Sans';
+
+}
+
+#PageFive .containerPageFive .HeaderH1PageFive{
+    margin-left: 100px;
+    margin-right: 700px;
+    width: 400px;
+    font-family: 'Arial';
+    color: #FFFFFF;
+}
+
+#PageFive .containerPageFive .textPageFive{
+    margin-right: 645px;
+    width: 349px;
+    color: #FFFFFF;
+    
+}
+
+#PageFive .containerPageFive .btn{
+    margin-right: 850px;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #1A1917;
+}
+
+#PageFive .containerPageFive .card1{
+    background: rgba(255, 255, 255, 0.08);
+    margin-left: 700px;
+    margin-right: 90px;
+    margin-top: -290px;
+    
+
+}
+
+#PageFive .containerPageFive .card .card-header img{
+    border-radius: 100%;
+    width: 50px;
+}
+
+#PageFive .containerPageFive .card .card-header .imgTwitter img{
+    padding-left: 150px;
+    
+}
+
+#PageFive .containerPageFive .card .card-header h5{
+    padding-left: 60px;
+    padding-bottom: 0px;
+    margin-top: -45px;
+}
+
+#PageFive .containerPageFive .card .card-header h6{
+    padding-left: 60px;
+    padding-bottom: 0px;
+    margin-top: -15px;
+}
+
+#PageFive .containerPageFive .card2{
+    background: rgba(255, 255, 255, 0.08);
+    margin-left: 700px;
+    margin-right: 230px;
+    margin-top: 10px;
+    
+
+}
+
+#PageFive .containerPageFive .card3{
+    background: rgba(255, 255, 255, 0.08);
+    margin-left: 700px;
+    margin-right: 150px;
+    margin-top: 12px;
+
+}
+
+
+#PageFive .card-title{
+    color: #FFB548;
+}
+
+#PageFive p{
+    color: #FFFFFF;
+}
+
+
+
